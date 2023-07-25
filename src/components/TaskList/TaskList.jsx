@@ -26,7 +26,7 @@ const TaskList = () => {
                 <FriendList friends={friends} />
             </li>
             <li>
-                <TransactionHistory items={transactions} />;
+                <TransactionHistory items={transactions} />
             </li>
         </ul>
     );

@@ -21,7 +21,7 @@ const TransactionHistory = ({ items }) => {
                             <td>{currency}</td>
                         </tr>)
                         }  
-                )};
+                )}
             </tbody>
     </table>
         )
