@@ -8,9 +8,8 @@ import FriendList from 'components/FriendList';
 import TransactionHistory from 'components/TransactionHistory';
 
 const TaskList = () => {
-    return (
-        <ul>
-            <li>
+    return (    
+        <>
                 <Profile
                 username={user.username}
                 tag={user.tag}
@@ -18,17 +17,10 @@ const TaskList = () => {
                 avatar={user.avatar}
                 stats={user.stats}
                 />
-            </li>
-            <li>
                 <Statistics title="Upload stats" stats={data} />
-            </li>
-            <li>
                 <FriendList friends={friends} />
-            </li>
-            <li>
                 <TransactionHistory items={transactions} />
-            </li>
-        </ul>
+        </>
     );
 };
 export default TaskList;
