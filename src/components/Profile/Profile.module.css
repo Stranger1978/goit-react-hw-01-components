@@ -3,12 +3,12 @@
     margin-right: auto;
     padding: 50px;
     width: 360px;
-    height: 300px;
+    height: 320px;
     border: 1px solid gray;
     background-color: lightgray;
     text-align: center;
     border-radius: 5px;
-}
+}  
 
 .description {
     padding-top: 20px;
@@ -18,7 +18,7 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
-    border-radius: 5px;
+    
 }
 
 .avatar {
@@ -39,7 +39,6 @@
     text-align: center;
     display:flex;
     list-style: none;
-    border-radius: 5px;
     align-content: flex-start;
 }
 
@@ -49,13 +48,14 @@
     width: 80px;
     text-align: center;
     border: 1px solid gray;
-    padding: 20px;
+    padding: 19px;
     background-color: lightgray;
     
 }
 
 .stats_item_label {
     color: gray;
+   
 }
 
 .stats_item_quantity {
